@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <!-- trash -->
+    <!-- Profile Section -->
+    <!-- <img src="images/19835157_6182682.jpg" class="img-fluid" alt="..."> -->
+
+    <div id="profile" class="container mt-4 section">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/19835157_6182682.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header custom-bg">
+                        Student Profile
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label class="form-label">First name</label>
+                            <input type="text" class="form-control mb-1" value="<?php echo $user[0]['first_name']; ?>">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Last Name</label>
+                            <input type="text" class="form-control" value="<?php echo $user[0]['last_name']; ?>">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">E-mail</label>
+                            <input type="text" class="form-control mb-1" value="<?php echo $user[0]['email']; ?>">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">level of study</label>
+                            <input type="text" class="form-control mb-1"
+                                value="<?php echo $userDetails[0]['levelOfStudy']; ?>">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">country</label>
+                            <input type="text" class="form-control mb-1"
+                                value="<?php echo $userDetails[0]['country']; ?>">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

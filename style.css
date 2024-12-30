@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+body {
+    background-color: #f4f6f9;
+}
+.scholarship-card {
+    transition: transform 0.3s ease;
+}
+.scholarship-card:hover {
+    transform: scale(1.05);
+}
+.custom-bg {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: white;
+}
+.card{
+    /* background-color: #67B26F; */
+}
+p{
+    font-size: 20px;
+}
+label{
+    font-size: 24px;
+}
+input{
+    font-size: 18px;
+}
+#highlight {
+    background-color: yellow; /* Change this to your desired highlight color */
+    padding: 1.2px;
+    border-radius: 5px;
+}
+.image-container .text-overlay {
+    position: absolute;
+    transform: translate(10%, 50%);
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
